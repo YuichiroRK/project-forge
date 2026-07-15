@@ -4,8 +4,8 @@
 
 **Versión entregada:** Alpha v0.0.1
 
-**Fecha inicio:** 2026-07-14
-**Fecha fin:** 2026-07-28
+**Fecha inicio:** 2026-07-03
+**Fecha fin:** 2026-07-14
 
 ---
 
@@ -281,3 +281,38 @@ Godot requiere ser muy estricto con la jerarquía de nodos. Las imágenes genera
 ## Cambios para el siguiente Sprint
 
 Para el próximo Sprint, tal vez automatizar un script general de postprocesamiento de imágenes y detallar aún más las rutas de nodos exactas antes de delegar la configuración visual.
+
+# Sprint Metrics
+
+Duración estimada:
+14 días
+
+Duración real:
+11 días
+
+Historias completadas:
+4/4
+
+Tareas completadas:
+18/20
+
+Bugs encontrados:
+7
+
+Bugs críticos:
+0
+
+Deuda técnica:
+Baja
+
+# Technical Debt
+
+- El inventario aún depende de nodos específicos.
+- Falta desacoplar la UI del sistema de Items.
+- El sistema de interacción aún no es reutilizable.
+
+# Decisions Taken
+
+- Se mantendrá TAB como tecla del inventario.
+- Se utilizarán placeholders hasta Alpha 0.3.
+- El movimiento seguirá siendo en 8 direcciones.
