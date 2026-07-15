@@ -5,7 +5,7 @@ const SPEED = 200.0
 @onready var animation_player = $AnimationPlayer
 @onready var interact_raycast = $InteractRayCast2D # Se asume que tendras un RayCast2D llamado asi apuntando hacia donde mira el jugador
 
-func _physics_process(delta: float) -> void:
+func _physics_process(_delta: float) -> void:
 	var direction = Vector2.ZERO
 	direction.x = Input.get_axis("move_left", "move_right")
 	direction.y = Input.get_axis("move_up", "move_down")

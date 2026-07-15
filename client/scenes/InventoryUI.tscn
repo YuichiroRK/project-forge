@@ -9,6 +9,7 @@ script = ExtResource("1_wqexf")
 offset_right = 40.0
 offset_bottom = 40.0
 
-[node name="GridContainer" type="GridContainer" parent="."]
+[node name="GridContainer" type="GridContainer" parent="Panel"]
+layout_mode = 0
 offset_right = 40.0
 offset_bottom = 40.0

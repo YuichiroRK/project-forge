@@ -1,9 +1,11 @@
-[gd_scene load_steps=7 format=3 uid="uid://cpl2n0lorpscw"]
+[gd_scene load_steps=8 format=3 uid="uid://cpl2n0lorpscw"]
 
 [ext_resource type="Script" uid="uid://c2kxil8tyd5j4" path="res://scripts/Player.gd" id="1_v6fml"]
 [ext_resource type="Script" uid="uid://vdla67e2ybyi" path="res://scripts/Inventory.gd" id="2_3li8b"]
+[ext_resource type="Texture2D" uid="uid://b55ca1cjtcekp" path="res://assets/player.jpg" id="2_mdl7e"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_mdl7e"]
+size = Vector2(22, 34)
 
 [sub_resource type="Animation" id="Animation_qu4a1"]
 resource_name = "Idle"
@@ -21,8 +23,13 @@ _data = {
 script = ExtResource("1_v6fml")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+rotation = -0.010684639
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("2_mdl7e")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-1, -1)
+rotation = 0.021601344
 shape = SubResource("RectangleShape2D_mdl7e")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]

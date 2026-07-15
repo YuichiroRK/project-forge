@@ -6,16 +6,21 @@
 
 [node name="Node2D" type="Node2D"]
 
-[node name="CharacterBody2D" parent="." instance=ExtResource("1_7g83o")]
-position = Vector2(-4, -12)
+[node name="Player" parent="." instance=ExtResource("1_7g83o")]
+position = Vector2(50, -50)
+rotation = -0.007934365
 
-[node name="CanvasLayer" parent="." instance=ExtResource("2_d1c63")]
+[node name="InventoryUI" parent="." instance=ExtResource("2_d1c63")]
 
 [node name="Rock" parent="." instance=ExtResource("3_1lgw5")]
+visible = false
 position = Vector2(122, -10)
+rotation = -1.3373384
 
 [node name="Rock2" parent="." instance=ExtResource("3_1lgw5")]
-position = Vector2(-56, -16)
+position = Vector2(-92.590515, -47.257683)
+rotation = -0.12058173
 
 [node name="Rock3" parent="." instance=ExtResource("3_1lgw5")]
+visible = false
 position = Vector2(90, -11)
