@@ -19,7 +19,7 @@ rotation = -1.3373384
 
 [node name="Rock2" parent="." instance=ExtResource("3_1lgw5")]
 position = Vector2(-92.590515, -47.257683)
-rotation = -0.12058173
+rotation = -0.22832745
 
 [node name="Rock3" parent="." instance=ExtResource("3_1lgw5")]
 visible = false
