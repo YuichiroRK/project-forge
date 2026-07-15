@@ -13,6 +13,11 @@ func _ready():
 		inventory = get_parent().get_node("Inventory")
 		
 	if not inventory:
+		var inv_node = get_tree().get_root().find_child("Inventory", true, false)
+		if inv_node:
+			inventory = inv_node
+			
+	if not inventory:
 		print("ERROR: InventoryUI no pudo encontrar el nodo Inventory.")
 		
 	# Crear el label de herramienta equipada dinámicamente si no existe
