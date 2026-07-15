@@ -1,136 +1,136 @@
-# Sprint 00 - Foundation
+﻿# Sprint 00 - Foundation
 
 Estado:
-🟡 Planeado
+ðŸŸ¡ Planeado
 
-Duración:
-14/07/2026 → 28/07/2026
+DuraciÃ³n:
+14/07/2026 â†’ 28/07/2026
 
 Objetivo principal
 
-Construir la base técnica y documental del proyecto.
+Construir la base tÃ©cnica y documental del proyecto.
 
-No se desarrollará gameplay durante este sprint.
+No se desarrollarÃ¡ gameplay durante este sprint.
 
 ---
 
 # Objetivos
 
-Al finalizar el sprint deberá existir un repositorio completamente organizado y listo para comenzar el desarrollo.
+Al finalizar el sprint deberÃ¡ existir un repositorio completamente organizado y listo para comenzar el desarrollo.
 
 ---
 
 # Entregables
 
-## Documentación
+## DocumentaciÃ³n
 
-- [ ] README.md
+- [x] README.md
 
-- [ ] GDD v0.1
+- [x] GDD v0.1
 
-- [ ] ROADMAP.md
+- [x] ROADMAP.md
 
-- [ ] CHANGELOG.md
+- [x] CHANGELOG.md
 
-- [ ] CLAUDE.md
+- [x] CLAUDE.md
 
-- [ ] AGENTS.md
+- [x] AGENTS.md
 
 ---
 
 ## ADR
 
-- [ ] ADR-0001 Engine
+- [x] ADR-0001 Engine
 
-- [ ] ADR-0002 No Classes
+- [x] ADR-0002 No Classes
 
-- [ ] ADR-0003 Server Architecture
+- [x] ADR-0003 Server Architecture
 
-- [ ] ADR-0004 Procedural Equipment
+- [x] ADR-0004 Procedural Equipment
 
-- [ ] ADR-0005 Docker First
+- [x] ADR-0005 Docker First
 
-- [ ] ADR-0006 Visual Style
+- [x] ADR-0006 Visual Style
 
 ---
 
 ## Gameplay Docs
 
-- [ ] crafting.md
+- [x] crafting.md
 
-- [ ] combat.md
+- [x] combat.md
 
-- [ ] professions.md
+- [x] professions.md
 
-- [ ] economy.md
+- [x] economy.md
 
 ---
 
 ## Proyecto Godot
 
-- [ ] Crear proyecto Godot 4
+- [x] Crear proyecto Godot 4
 
-- [ ] Configurar estructura inicial
+- [x] Configurar estructura inicial
 
-- [ ] Configurar carpetas
+- [x] Configurar carpetas
 
-- [ ] Crear escena Main
+- [x] Crear escena Main
 
-- [ ] Crear escena Player
+- [x] Crear escena Player
 
-- [ ] Crear escena World
+- [x] Crear escena World
 
 ---
 
 ## Git
 
-- [ ] Repositorio Git
+- [x] Repositorio Git
 
-- [ ] Rama main
+- [x] Rama main
 
-- [ ] Rama develop
+- [x] Rama dev
 
-- [ ] Primera release Alpha 0.0.0
+- [x] Primera release Alpha 0.0.0
 
 ---
 
 ## Docker
 
-- [ ] Dockerfile Server
+- [x] Dockerfile Server
 
-- [ ] docker-compose.yml
+- [x] docker-compose.yml
 
-- [ ] PostgreSQL
+- [x] PostgreSQL
 
-- [ ] Redis
+- [x] Redis
 
 ---
 
 ## VSCode
 
-- [ ] Configuración Workspace
+- [x] ConfiguraciÃ³n Workspace
 
-- [ ] Extensiones
+- [x] Extensiones
 
-- [ ] EditorConfig
+- [x] EditorConfig
 
 ---
 
-# Criterios de aceptación
+# Criterios de aceptaciÃ³n
 
-✔ Toda la documentación creada.
+âœ” Toda la documentaciÃ³n creada.
 
-✔ Proyecto abre correctamente.
+âœ” Proyecto abre correctamente.
 
-✔ Git inicializado.
+âœ” Git inicializado.
 
-✔ Docker Compose funcionando.
+âœ” Docker Compose funcionando.
 
-✔ PostgreSQL levanta correctamente.
+âœ” PostgreSQL levanta correctamente.
 
-✔ Redis levanta correctamente.
+âœ” Redis levanta correctamente.
 
-✔ Estructura definitiva creada.
+âœ” Estructura definitiva creada.
 
 ---
 
@@ -144,13 +144,13 @@ Cambios importantes en la arquitectura.
 
 # Resultado esperado
 
-El proyecto queda listo para comenzar el Sprint 01 sin deuda técnica ni problemas de organización.
+El proyecto queda listo para comenzar el Sprint 01 sin deuda tÃ©cnica ni problemas de organizaciÃ³n.
 
 ---
 
 # Definition of Done
 
-- Toda la documentación revisada.
+- Toda la documentaciÃ³n revisada.
 
 - Compila.
 
