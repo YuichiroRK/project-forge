@@ -5,7 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://b3fd6d2ukwg2d" path="res://assets/player.png" id="2_mdl7e"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_mdl7e"]
-size = Vector2(22, 34)
+size = Vector2(47.479645, 67.99032)
 
 [sub_resource type="Animation" id="Animation_qu4a1"]
 resource_name = "Idle"
@@ -24,11 +24,11 @@ script = ExtResource("1_v6fml")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 rotation = -0.010684639
-scale = Vector2(0.1, 0.1)
+scale = Vector2(0.2, 0.2)
 texture = ExtResource("2_mdl7e")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-1, -1)
+position = Vector2(-1, -2.5)
 rotation = 0.021601344
 shape = SubResource("RectangleShape2D_mdl7e")
 
