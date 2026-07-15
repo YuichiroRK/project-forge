@@ -36,3 +36,6 @@ offset_right = 1054.0
 offset_bottom = 602.0
 scale = Vector2(2.090022, 1.6826138)
 text = "Pickaxe"
+
+[connection signal="pressed" from="Give Axe" to="." method="_on_give_axe_pressed"]
+[connection signal="pressed" from="Give Pickaxe" to="." method="_on_give_pickaxe_pressed"]

@@ -27,8 +27,24 @@ func update_ui():
 		var label = Label.new()
 		var data = Globals.get_item(item.id)
 		if data:
-			label.text = data.name + " x" + str(item.amount)
-			grid_container.add_child(label)
+			var hbox = HBoxContainer.new()
+			
+			var icon = TextureRect.new()
+			var tex_path = "res://assets/" + item.id + ".png"
+			if ResourceLoader.exists(tex_path):
+				icon.texture = load(tex_path)
+			icon.custom_minimum_size = Vector2(32, 32)
+			icon.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
+			
+			var label = Label.new()
+			if item.has("durability"):
+				label.text = data.name + " (" + str(item.durability) + "/" + str(data.max_durability) + ")"
+			else:
+				label.text = data.name + " x" + str(item.amount)
+				
+			hbox.add_child(icon)
+			hbox.add_child(label)
+			grid_container.add_child(hbox)
 
 func _on_give_pickaxe_pressed():
 	if inventory:
