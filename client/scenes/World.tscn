@@ -7,20 +7,22 @@
 [node name="Node2D" type="Node2D"]
 
 [node name="Player" parent="." instance=ExtResource("1_7g83o")]
-position = Vector2(50, -50)
+position = Vector2(54, -21)
 rotation = -0.007934365
 
 [node name="InventoryUI" parent="." instance=ExtResource("2_d1c63")]
 
 [node name="Rock" parent="." instance=ExtResource("3_1lgw5")]
-visible = false
-position = Vector2(122, -10)
+position = Vector2(206, 52)
 rotation = -1.3373384
 
 [node name="Rock2" parent="." instance=ExtResource("3_1lgw5")]
-position = Vector2(-92.590515, -47.257683)
+position = Vector2(-151, -31)
 rotation = -0.22832745
 
 [node name="Rock3" parent="." instance=ExtResource("3_1lgw5")]
-visible = false
-position = Vector2(90, -11)
+position = Vector2(334, -32)
+
+[node name="TileMap" type="TileMap" parent="."]
+rotation = 1.4461834
+format = 2
