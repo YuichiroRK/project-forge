@@ -40,10 +40,10 @@ Como jugador...
 ## Movimiento
 
 - [x] Movimiento en 8 direcciones
-- [ ] Cámara siguiendo al jugador
-- [ ] Colisiones
-- [ ] Animación Idle
-- [ ] Animación Walk
+- [x] Cámara siguiendo al jugador
+- [x] Colisiones
+- [x] Animación Idle
+- [x] Animación Walk
 
 ---
 
@@ -53,10 +53,10 @@ Crear un mapa pequeño de pruebas.
 
 Debe contener:
 
-- [ ] Pasto
-- [ ] Agua
-- [ ] Rocas
-- [ ] Algunas decoraciones
+- [x] Pasto
+- [x] Agua
+- [x] Rocas
+- [x] Algunas decoraciones
 
 No dedicar tiempo al arte definitivo.
 
@@ -102,7 +102,7 @@ Implementar un inventario funcional.
 
 Características:
 
-- [ ] Grid simple
+- [x] Grid simple
 - [x] Stack de objetos
 - [x] Abrir/Cerrar con TAB
 - [x] Mostrar cantidad
@@ -271,16 +271,16 @@ El objetivo es validar que el gameplay base es sólido antes de comenzar el desa
 
 ## ¿Qué salió bien?
 
-...
+Logramos conectar de forma híbrida la lógica programada (IA) con la configuración visual (Humano) para crear el prototipo base.
 
 ## ¿Qué salió mal?
 
-...
+Pequeños inconvenientes con la resolución de nombres de nodos y formatos de imagen (extensión jpg vs png), además de configuración de UI que requieren setup manual intensivo en el editor.
 
 ## ¿Qué aprendimos?
 
-...
+Godot requiere ser muy estricto con la jerarquía de nodos. Las imágenes generadas por IA suelen requerir postprocesado (remover fondo blanco).
 
 ## Cambios para el siguiente Sprint
 
-...
+Para el próximo Sprint, tal vez automatizar un script general de postprocesamiento de imágenes y detallar aún más las rutas de nodos exactas antes de delegar la configuración visual.
