@@ -66,6 +66,8 @@ func update_ui():
 			icon.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
 			
 			var label = Label.new()
+			label.add_theme_font_size_override("font_size", 14) # Ajustar tamaño del texto
+			
 			if data.has("type") and data.type == "tool":
 				best_tool = "En mano: " + data.name
 				
