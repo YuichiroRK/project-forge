@@ -39,7 +39,7 @@ Como jugador...
 
 ## Movimiento
 
-- [ ] Movimiento en 8 direcciones
+- [x] Movimiento en 8 direcciones
 - [ ] Cámara siguiendo al jugador
 - [ ] Colisiones
 - [ ] Animación Idle
@@ -68,8 +68,8 @@ Se utilizarán assets temporales (placeholder).
 
 Implementar únicamente:
 
-- [ ] Piedra
-- [ ] Hierro
+- [x] Piedra
+- [x] Hierro
 
 Cada recurso debe:
 
@@ -103,9 +103,9 @@ Implementar un inventario funcional.
 Características:
 
 - [ ] Grid simple
-- [ ] Stack de objetos
-- [ ] Abrir/Cerrar con TAB
-- [ ] Mostrar cantidad
+- [x] Stack de objetos
+- [x] Abrir/Cerrar con TAB
+- [x] Mostrar cantidad
 
 No implementar aún:
 
