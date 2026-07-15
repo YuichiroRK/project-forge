@@ -1,14 +1,11 @@
 # Sprint 01 - First Playable Prototype
 
-**Estado:** 🟡 Planned
+**Estado:** 🟢 Completed
 
-**Versión objetivo:** Alpha 0.0.1
+**Versión entregada:** Alpha v0.0.1
 
-**Duración:** 2 semanas
-
-**Fecha inicio:** _(Completar)_
-
-**Fecha fin:** _(Completar)_
+**Fecha inicio:** 2026-07-14
+**Fecha fin:** 2026-07-28
 
 ---
 
