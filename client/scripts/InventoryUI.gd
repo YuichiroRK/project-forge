@@ -24,7 +24,6 @@ func update_ui():
 		child.queue_free()
 		
 	for item in inventory.items:
-		var label = Label.new()
 		var data = Globals.get_item(item.id)
 		if data:
 			var hbox = HBoxContainer.new()
