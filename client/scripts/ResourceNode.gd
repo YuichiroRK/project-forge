@@ -27,6 +27,17 @@ func _process(delta):
 func on_interact(player):
 	if is_gathering:
 		return
+		
+	var item_data = Globals.get_item(resource_id)
+	if item_data.has("required_tool"):
+		var req_tool = item_data.required_tool
+		if player.has_node("Inventory"):
+			var inv = player.get_node("Inventory")
+			var tool_idx = inv.get_tool_for(req_tool)
+			if tool_idx == -1:
+				print("Necesitas: " + req_tool)
+				return
+				
 	is_gathering = true
 	interactor = player
 	if progress_bar:
@@ -36,5 +47,13 @@ func finish_gathering():
 	is_gathering = false
 	if interactor and interactor.has_node("Inventory"):
 		var inv = interactor.get_node("Inventory")
+		
+		var item_data = Globals.get_item(resource_id)
+		if item_data.has("required_tool"):
+			var req_tool = item_data.required_tool
+			var tool_idx = inv.get_tool_for(req_tool)
+			if tool_idx != -1:
+				inv.use_tool(tool_idx)
+				
 		inv.add_item(resource_id, amount_to_give)
 	queue_free()

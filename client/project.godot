@@ -12,7 +12,7 @@ config_version=5
 
 config/name="Project Forge"
 run/main_scene="uid://cfholxqvf5u43"
-config/features=PackedStringArray("4.3")
+config/features=PackedStringArray("4.5")
 
 [autoload]
 
