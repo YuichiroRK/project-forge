@@ -1,3 +1,38 @@
-[gd_scene format=3]
+[gd_scene load_steps=7 format=3 uid="uid://cpl2n0lorpscw"]
 
-[node name="Player" type="CharacterBody2D"]
+[ext_resource type="Script" uid="uid://c2kxil8tyd5j4" path="res://scripts/Player.gd" id="1_v6fml"]
+[ext_resource type="Script" uid="uid://vdla67e2ybyi" path="res://scripts/Inventory.gd" id="2_3li8b"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mdl7e"]
+
+[sub_resource type="Animation" id="Animation_qu4a1"]
+resource_name = "Idle"
+
+[sub_resource type="Animation" id="Animation_70d11"]
+resource_name = "Walk"
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_cw2d6"]
+_data = {
+&"Idle": SubResource("Animation_qu4a1"),
+&"Walk": SubResource("Animation_70d11")
+}
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+script = ExtResource("1_v6fml")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_mdl7e")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_cw2d6")
+}
+
+[node name="InteractRayCast2D" type="RayCast2D" parent="."]
+
+[node name="Inventory" type="Node" parent="."]
+script = ExtResource("2_3li8b")
+
+[node name="Camera2D" type="Camera2D" parent="."]

@@ -1,3 +1,21 @@
-[gd_scene format=3]
+[gd_scene load_steps=4 format=3 uid="uid://cfholxqvf5u43"]
 
-[node name="World" type="Node2D"]
+[ext_resource type="PackedScene" uid="uid://cpl2n0lorpscw" path="res://scenes/Player.tscn" id="1_7g83o"]
+[ext_resource type="PackedScene" uid="uid://bij3rfwr3o6ft" path="res://scenes/InventoryUI.tscn" id="2_d1c63"]
+[ext_resource type="PackedScene" uid="uid://2teeokhredst" path="res://scenes/Rock.tscn" id="3_1lgw5"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("1_7g83o")]
+position = Vector2(-4, -12)
+
+[node name="CanvasLayer" parent="." instance=ExtResource("2_d1c63")]
+
+[node name="Rock" parent="." instance=ExtResource("3_1lgw5")]
+position = Vector2(122, -10)
+
+[node name="Rock2" parent="." instance=ExtResource("3_1lgw5")]
+position = Vector2(-56, -16)
+
+[node name="Rock3" parent="." instance=ExtResource("3_1lgw5")]
+position = Vector2(90, -11)
