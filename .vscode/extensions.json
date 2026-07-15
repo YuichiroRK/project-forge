@@ -1,0 +1,7 @@
+{
+    "recommendations": [
+        "geequlim.godot-tools",
+        "ms-azuretools.vscode-docker",
+        "esbenp.prettier-vscode"
+    ]
+}
