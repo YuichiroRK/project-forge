@@ -56,10 +56,11 @@ func update_ui():
 			icon.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
 			
 			var label = Label.new()
+			if data.has("type") and data.type == "tool":
+				best_tool = "En mano: " + data.name
+				
 			if item.has("durability"):
 				label.text = data.name + " (" + str(item.durability) + "/" + str(data.max_durability) + ")"
-				if data.type == "tool":
-					best_tool = "En mano: " + data.name
 			else:
 				label.text = data.name + " x" + str(item.amount)
 				
