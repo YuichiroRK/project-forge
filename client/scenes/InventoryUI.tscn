@@ -19,3 +19,20 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+
+[node name="Give Axe" type="Button" parent="."]
+offset_left = 999.0
+offset_top = 489.00003
+offset_right = 1036.0
+offset_bottom = 520.0
+scale = Vector2(2.5810125, 1.7627033)
+text = "Axe
+"
+
+[node name="Give Pickaxe" type="Button" parent="."]
+offset_left = 987.0
+offset_top = 571.0
+offset_right = 1054.0
+offset_bottom = 602.0
+scale = Vector2(2.090022, 1.6826138)
+text = "Pickaxe"

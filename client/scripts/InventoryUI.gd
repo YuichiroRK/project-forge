@@ -29,3 +29,13 @@ func update_ui():
 		if data:
 			label.text = data.name + " x" + str(item.amount)
 			grid_container.add_child(label)
+
+func _on_give_pickaxe_pressed():
+	if inventory:
+		inventory.add_item("pickaxe")
+		update_ui()
+
+func _on_give_axe_pressed():
+	if inventory:
+		inventory.add_item("axe")
+		update_ui()

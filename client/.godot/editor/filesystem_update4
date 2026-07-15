@@ -1,0 +1,5 @@
+res://scripts/Globals.gd
+res://scripts/Inventory.gd
+res://scripts/ResourceNode.gd
+res://scenes/Player.tscn
+res://scenes/InventoryUI.tscn
