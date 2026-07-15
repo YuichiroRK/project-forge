@@ -9,6 +9,11 @@ func _ready():
 	hide()
 	if inventory_node_path:
 		inventory = get_node(inventory_node_path)
+	elif get_parent().has_node("Inventory"):
+		inventory = get_parent().get_node("Inventory")
+		
+	if not inventory:
+		print("ERROR: InventoryUI no pudo encontrar el nodo Inventory.")
 		
 	# Crear el label de herramienta equipada dinámicamente si no existe
 	if not has_node("EquippedLabel"):
