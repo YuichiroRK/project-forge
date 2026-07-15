@@ -35,3 +35,11 @@ Siempre priorizar:
 16. El equipamiento define el gameplay.
 
 17. La creatividad del jugador tiene prioridad sobre recetas fijas.
+
+## Human-AI Workflow
+
+La IA implementa lógica repetitiva y estructuras.
+
+El humano valida el gameplay, integra recursos, ajusta la experiencia y toma las decisiones de diseño.
+
+La IA nunca reemplaza las decisiones de Game Design.
